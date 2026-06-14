@@ -130,8 +130,8 @@ export default function AlertsPage() {
                   severity={alert.severity}
                   message={alert.message}
                   timestamp={formatDate(alert.createdAt)}
-                  onAcknowledge={() => console.log("Acknowledge:", alert.id)}
-                  onDismiss={() => console.log("Dismiss:", alert.id)}
+                  onAcknowledge={() => undefined}
+                  onDismiss={() => undefined}
                 />
               ))
             )}

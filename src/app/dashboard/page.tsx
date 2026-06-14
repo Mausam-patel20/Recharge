@@ -53,7 +53,7 @@ export default function DashboardPage() {
         {/* Page Header */}
         <div>
           <h1 className="text-3xl font-bold text-foreground mb-2">Dashboard</h1>
-          <p className="text-muted-foreground">Welcome back! Here's your charging network overview.</p>
+          <p className="text-muted-foreground">Welcome back! Here is your charging network overview.</p>
         </div>
 
         {/* Top Metrics */}
@@ -206,8 +206,8 @@ export default function DashboardPage() {
                   severity={alert.severity}
                   message={alert.message}
                   timestamp={formatDate(alert.createdAt)}
-                  onAcknowledge={() => console.log("Acknowledge:", alert.id)}
-                  onDismiss={() => console.log("Dismiss:", alert.id)}
+                  onAcknowledge={() => undefined}
+                  onDismiss={() => undefined}
                 />
               ))}
               <button className="w-full py-2 text-center text-sm font-medium text-primary hover:bg-primary/10 rounded-lg transition-colors">
