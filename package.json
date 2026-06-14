@@ -1,0 +1,46 @@
+{
+  "name": "recharge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --max-warnings=0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mausam-patel20/Recharge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mausam-patel20/Recharge/issues"
+  },
+  "homepage": "https://github.com/Mausam-patel20/Recharge#readme",
+  "dependencies": {
+    "next": "^16.2.9",
+    "next-themes": "^0.4.6",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.11",
+    "@types/node": "25.9.3",
+    "@types/react": "19.2.17",
+    "autoprefixer": "^10.5.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^16.2.9",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.18.0",
+    "postcss": "^8.5.15",
+    "react-icons": "^5.6.0",
+    "recharts": "^3.8.1",
+    "tailwind-merge": "^3.6.0"
+  }
+}
